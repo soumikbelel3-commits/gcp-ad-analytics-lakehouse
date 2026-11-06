@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Data files (keep sample / generator scripts, exclude generated bulk datasets)
+data/raw/*.parquet
+data/raw/*.csv
+!data/raw/.gitkeep
+data/silver/
+data/gold/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+crash.log
+
+# GCP Service Account Credentials & Keys
+*.key.json
+*service-account*.json
+credentials.json
+
+# Spark & Iceberg local artifacts
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Testing & Quality
+.pytest_cache/
+.coverage
+htmlcov/
+.soda/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

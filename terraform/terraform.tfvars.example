@@ -1,0 +1,5 @@
+project_id            = "your-gcp-project-id"
+region                = "us-central1"
+environment           = "prod"
+bq_location           = "US"
+enable_cloud_composer = false
